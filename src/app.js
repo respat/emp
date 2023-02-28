@@ -45,6 +45,8 @@ function loadEmployees(dolgozoLista) {
 addButtonSave.addEventListener('click', () => {
     addEmployee();
     clearFields();
+    getEmloyees();
+    dolgozoTorzs.textContent = "";
 });
 
 function clearFields() {
